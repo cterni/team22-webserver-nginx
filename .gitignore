@@ -1,0 +1,13 @@
+# Generic nginx configuration, untouched
+koi-utf
+koi-win
+modules
+mime.types
+win-utf
+
+# Local configuration
+sites-enabled
+modules-enabled
+
+# Distribution files
+*.dpkg-dist
