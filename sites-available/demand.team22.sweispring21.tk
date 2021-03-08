@@ -3,7 +3,7 @@ server {
 	root /home/team22/team22-frontend-webserver/html;
 	index index.html index.htm index.nginx-debian.html;
 
-	server_name demand.team22.sweispring21.tk www.demand.team22.sweispring21.tk;
+	server_name demand.team22.sweispring21.tk;
 
 	location / {
 		try_files $uri $uri/ =404;
